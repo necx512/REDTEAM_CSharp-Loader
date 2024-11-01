@@ -28,7 +28,8 @@ https://github.com/etormadiv/HostingCLR/issues/1
 https://learn.microsoft.com/en-us/windows/win32/midl/com-dcom-and-type-libraries
 https://learn.microsoft.com/en-us/answers/questions/215345/running-managed-executables-inside-an-unmanaged-ex
 
-
+# TODO
+Si je desactive l'AV, le programme prend du temps a ce lancer. ETW??
 
 # Minimal C# loader without check
 
