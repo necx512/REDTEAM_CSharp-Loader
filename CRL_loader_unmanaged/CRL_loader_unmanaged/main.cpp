@@ -1,4 +1,3 @@
-﻿// code mostly stolen from pabloko's comment in https://gist.github.com/xpn/e95a62c6afcf06ede52568fcd8187cc2
 //try opening dll with ildasm
 // https://learn.microsoft.com/en-us/answers/questions/370576/ildasm-exe-wont-work
 //  res = runtimeHost->ExecuteInDefaultAppDomain(L"C:\\Users\\sebastien.carre\\source\\repos\\CRL_loader_managed\\CRL_loader_managed\\bin\\Release\\net6.0\\CRL_loader_managed.dll", L"CLRHello1.Program", L"spotlessMethod", L"test", &pReturnValue);
