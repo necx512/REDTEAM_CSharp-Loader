@@ -68,7 +68,7 @@ int from_memory_v1(int argc, wchar_t* argv[]) {
 	SafeArrayPutElement(psaStaticMethodArgs, &index, &vtStringArg);
     VariantInit(&_result);
 	hr = spType->raw_InvokeMember_3(bstrStaticMethodName, static_cast<BindingFlags>(BindingFlags_InvokeMethod | BindingFlags_Static | BindingFlags_Public), NULL, vtEmpty, psaStaticMethodArgs, &_result);//OK
-	std::cout << std::hex << hr << std::endl; // 0x80131512 COR_E_MISSINGMEMBER https://learn.microsoft.com/fr-fr/dotnet/api/system.missingmemberexception?view=net-8.0
+	std::cout << std::hex << hr << std::endl; 
 		
 	
 	return 0;
